@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         labelTwo.translatesAutoresizingMaskIntoConstraints = false
         labelTwo.widthAnchor.constraint(equalToConstant: 160).isActive = true
         labelTwo.topAnchor.constraint(equalTo: view.topAnchor, constant: 100).isActive = true
-//        labelTwo.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 20).isActive = true
+        labelTwo.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 20).isActive = true
     }
     
 
